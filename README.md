@@ -18,7 +18,7 @@ Some of the more interesting concepts I was exploring are:
 * Entity-component-systems architectures for flexibility, scalability and performance in managing game worlds.
 * Generating Python bindings (pyshake) created using Pybind11, that enable you to easily script your own games.
 * Uses modern c++ features such as any, variant, visit and fold expressions.
-* I also worked on custom (pre-c++20) ranges inspired by Python ranges and Boost Range, which are now in a separate repo: **[shake_ranges](https://github.com/berryvansomeren/sghake_ranges)**.
+* I also worked on custom (pre-c++20) ranges inspired by Python ranges and Boost Range, which are now in a separate repo: **[shake_ranges](https://github.com/berryvansomeren/shake_ranges)**.
 
 Shake uses CMake for build management, but actually uses Python for target specification.  
 The corresponding CMakeLists.txt is generate automatically using my **[Cmake Generator](https://github.com/berryvansomeren/cmake_generator)**.
