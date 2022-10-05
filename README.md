@@ -24,4 +24,4 @@ Shake uses CMake for build management, but actually uses Python for target speci
 The corresponding CMakeLists.txt is generate automatically using my **[Cmake Generator](https://github.com/berryvansomeren/cmake_generator)**.
 
 Since the CMakeLists.txt refers to paths on my local machine, you would have to regenerate the CMakeLists.txt file by running _make_cmake_file.py_.
-The resulting project builds fine in Visual Studio 2019, but not out of the box in newer versions of Visual Studio. An example of pyshake can be used is found in _shake_test_game/main.py_
+The resulting project builds fine in Visual Studio 2019, but does not build out of the box in newer versions of Visual Studio. An example of how pyshake can be used is found in _shake_test_game/main.py_
